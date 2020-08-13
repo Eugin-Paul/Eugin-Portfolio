@@ -1,0 +1,513 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background-color: black ; */
+    /* background-image: url("images/black6.jpg"); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+#nav{
+    background-color: black;
+    /* height: 100px; */
+}
+
+#list a{
+    /* color:white; */
+    padding-right: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#list a:hover{
+    color:#725C85;
+}
+
+#logo{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#4A464E;
+    text-shadow: 2px 2px 4px white;
+
+}
+
+#profile{
+    align-items: center;
+    background-image: url("images/black6.jpg");
+    height : 770px;
+    /* max-width: 100%; */
+    /* background-size:contain; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#text_profile{
+    margin-top: 150px;
+    align-items: center;
+}
+
+#image_profile{
+    align-items: center;
+    height: 350px;
+    width: 350px;
+}
+
+#button_profile{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    margin-top: 10px;
+    font-size: 20px;;
+    color:lightgray;
+    width:125px;
+    height:45px;
+    font-weight: bolder;
+}
+
+#button_profile:hover{
+    background-color: white ;
+    color:black;
+}
+
+#vertical_button{
+    margin-left: 1270px;
+    margin-top: -400px;
+    /* height : 500px; */
+    /* background-color: darkolivegreen; */
+}
+
+.button_size{
+    height:50px;
+    width:50px;
+}
+
+.social{
+	/* position: fixed; */
+	/* top:50%;  */
+	/* right:0px; */
+    /* transform:translateY(-50%); */
+    margin-top: -400px;
+    margin-left: 1277px;
+}
+
+#size{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FFFFFF;
+	border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+#size i{
+    color:black;
+    font-size: 20px;
+}
+
+#size:hover{
+    background-color: black;
+}
+
+#size:hover i{
+    color:white;
+}
+
+#about{
+    background-color: lightgrey;
+    height : 700px;
+    margin-top: -33px;
+}
+
+.about_heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #474562;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.m-heading{
+    color : darkslateblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name_color{
+    color : darkblue;
+}
+
+#about_text{
+    align-items: right;
+    height : 500px;
+    width: 200px;
+    color:black;
+    font-weight: bold;
+    font-size:17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about_image{
+    align-items: center;
+    height: 320px;
+    width: 320px;
+    /* padding-top: 120px; */
+    margin-left: 40px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#about_image:hover {
+    box-shadow: 0 0 2px 4px rgba(0, 140, 186, 0.5);
+    /* transform: scaleX(-1); */
+    /* opacity: 0.3; */
+  }
+
+.name,.phone,.location,.email,.education,.hobbies{
+    color : grey;
+}
+
+.Name,.Phone,.Location,.Email,.Education,.Hobbies{
+    color : black;
+}
+
+.phone,.email,.hobbies{
+    margin-left: 350px;
+    margin-top: -40px;
+}
+
+.name_color{
+    color : darkblue;
+}
+
+#skills{
+    height : 700px;
+    background-image: url("images/skills28.jpg");
+    background-repeat:no-repeat; 
+    background-size: cover;
+    /* background-size:contain; */
+    /* background-image: transparent; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    color : lightgray;
+    font-size: 17px;
+    margin-top: -35px;
+}
+
+.skills_heading{
+    /* margin-left: 700px; */
+    text-align: center;
+    color : lightblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#skill_move2{
+    padding-left: 150px;
+}
+
+.progress{
+    height : 10px;
+    width : 400px;
+}
+
+#card_image{
+    width : 278px;
+    height :220px;
+}
+
+#card_box{
+    width : 280px;
+    height :350px;
+    /* background-color: black; */
+}
+
+#projects{
+    height : 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images/project8.jpg");
+    background-size:contain;
+    padding-top: 80px;
+    margin-top: -32px;
+}
+
+.projects_heading{
+    text-align: center;
+    color : #404040;
+    margin-bottom: 40px;;
+    font-size:30px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#sub_heading:hover {
+    /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); */
+    color : black;
+    text-decoration: none; 
+    background-color: lawngreen;
+  }
+
+#sub_heading{
+    color :  darkgreen;
+    background-color:  lightcyan;
+} 
+
+.projects_heading:hover,.skills_heading:hover,.about_heading:hover,.contact_heading:hover {
+    /* font-size: 30px; */
+    opacity: .5;
+}
+
+.contact_heading{
+    text-align: center;
+    color:grey;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#contact_image{
+    height:350px;
+    width:620px;
+    margin-left:100px;
+}
+
+#contact_icon{
+    margin-left: 100px;
+    color:turquoise;
+}
+
+#contact{
+    background-image: url("images/black11.jpg");
+    /* opacity:0.5; */
+    height:700px;
+    margin-top:-35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+}
+
+.contact_location{
+    padding-left: 7px;
+    color :turquoise;
+}
+
+.button_contact{
+    width:230px;
+    height:60px;
+    background-color: #D6BBEC;
+}
+
+.button_contact:hover{
+    background-color: #5E6569;
+}
+
+#contact_image:hover{
+   opacity:0.7;
+}
+
+
+#contact_buttons{
+    margin-left: 100px;
+}
+
+
+#linkedin_icon{
+    margin-left:-150px;
+    background-color: 057EB8;
+    color:white;
+    margin-top: 5px;
+} 
+
+#linkedin{
+    margin-left:30px;
+    margin-top: -35px;
+    color:#057EB8;
+}
+
+#github_icon{
+    margin-left:-150px;
+    background-color: black;
+    margin-top: 5px;
+} 
+
+#github{
+    margin-left:30px;
+    margin-top: -35px;
+    color:black;
+}
+
+#instagram_icon{
+    margin-left:-150px;
+    color:#660033;
+    margin-top: 5px;
+} 
+
+#instagram{
+    margin-left:30px;
+    margin-top: -35px;
+    color:#660033;
+}
+
+#facebook_icon{
+    margin-left:-150px;
+    /* background-color:red; */
+    color:blue;
+    margin-top: 5px;
+} 
+
+#facebook{
+    margin-left:30px;
+    margin-top: -35px;
+    color:blue;
+}
+
+footer{
+	height:170px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    position: relative;
+    background-color: whitesmoke;
+    margin-top: -30px;
+}
+.social-icons a{
+	width:40px;
+	height:40px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#e6e3e3;
+	margin:20px 10px;
+    border-radius:50%;
+    text-decoration: none;
+}
+.social-icons{
+	display: flex;
+	
+}
+.social-icons i{
+    color:#000000;
+    /* margin-top: 10px;
+    margin-left: 14px; */
+}
+.social-icons a:hover{
+	background-color:#000000;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+.social-icons a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+
+.copyright{
+	color:#565555;
+	font-size: 12px;
+	position: absolute;
+	left:50%;
+	bottom:10px;
+    transform: translateX(-50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #profile {
+      height : 950px;
+      padding-left: 50px;
+      padding-right: 50px;
+      align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #image_profile {
+      margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #about {
+      height : 1500px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #skills,#contact {
+      height : 850px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #projects {
+      height : 1450px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #contact {
+      height : 1000px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .phone,.email,.hobbies{
+        margin-top: 0px;
+        margin-left: 0px;
+      
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #about_text{
+        font-size: 16px;
+        font-weight: lighter;  
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #about_image{
+       margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #contact_image,#contact_icon {
+      padding-left: 40px;
+      margin-left: -20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #project_card {
+      padding-left: 20%;
+      padding-right: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #skill_move1 {
+      margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #skill_move2 {
+      margin-left: -94px;
+    }
+}
