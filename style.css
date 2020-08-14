@@ -7,6 +7,9 @@ body{
     /* background-image: url("images/black6.jpg"); */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow-x: hidden;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
 }
 
 #nav{
@@ -40,6 +43,10 @@ body{
     /* max-width: 100%; */
     /* background-size:contain; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
 }
 
 #text_profile{
@@ -420,18 +427,20 @@ footer{
 /* Media Queries */
 
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
-}
+} */
 
 @media only screen and (max-width: 800px) {
     #profile {
       height : 950px;
-      padding-left: 50px;
-      padding-right: 50px;
-      align-items: center;
+      /* width: 600px; */
+      /* padding-left: 10%;
+      padding-right: 50%; */
+      /* align-items: center; */
+      /* position:relative; */
     }
 }
 
@@ -444,12 +453,14 @@ footer{
 @media only screen and (max-width: 800px) {
     #about {
       height : 1500px;
+      /* position:fixed; */
     }
 }
 
 @media only screen and (max-width: 800px) {
     #skills,#contact {
       height : 850px;
+      /* position:fixed; */
     }
 }
 
