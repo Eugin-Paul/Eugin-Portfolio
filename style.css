@@ -76,28 +76,21 @@ body{
     color:black;
 }
 
-#vertical_button{
-    margin-left: 1270px;
-    margin-top: -400px;
-    /* height : 500px; */
-    /* background-color: darkolivegreen; */
-}
-
-/* .button_size{
+.button_size{
     height:50px;
     width:50px;
-} */
-
-.social{
-	/* position: fixed; */
-	/* top:50%;  */
-	/* right:0px; */
-    /* transform:translateY(-50%); */
-    /* margin-top: -400px;
-    margin-left: 1277px; */
 }
 
-/* #size{
+.social{
+	position: fixed;
+	top:27%;
+	right:0px;
+    transform:translateY(50%);
+    /* margin-top: -400px;
+    margin-left: 112%; */
+}
+
+#size{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -123,7 +116,7 @@ body{
 
 #size:hover i{
     color:white;
-} */
+}
 
 #about{
     background-color: lightgrey;
@@ -268,6 +261,7 @@ body{
     color :  darkgreen;
     background-color:  lightcyan;
     text-align: center;
+    margin-left:30%;
 } 
 
 .projects_heading:hover,.skills_heading:hover,.about_heading:hover,.contact_heading:hover {
@@ -307,25 +301,25 @@ body{
 .button_contact1{
     width:230%;
     height:60px;
-    background-color: #D6BBEC;
+    background-color: black;
 }
 
 .button_contact2{
     width:270%;
     height:60px;
-    background-color: #D6BBEC;
+    background-color: black;
 }
 
 .button_contact3{
     width:204%;
     height:60px;
-    background-color: #D6BBEC;
+    background-color: black;
 }
 
 .button_contact4{
     width:213%;
     height:60px;
-    background-color: #D6BBEC;
+    background-color: black;
 }
 
 .button_contact1:hover,.button_contact2:hover,.button_contact3:hover,.button_contact4:hover{
@@ -365,7 +359,7 @@ body{
 #github{
     margin-left:15%;
     margin-top: -35px;
-    color:black;
+    color:white;
 }
 
 #instagram_icon{
@@ -377,7 +371,7 @@ body{
 #instagram{
     margin-left:20%;
     margin-top: -35px;
-    color:#660033;
+    color:darkred;
 }
 
 #facebook_icon{
@@ -485,7 +479,7 @@ footer{
 @media only screen and (max-width: 800px) {
     #about_text{
         font-size: 16px;
-        font-weight: lighter;  
+        font-weight: bold;  
     }
 }
 
@@ -537,16 +531,23 @@ footer{
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     #projects {
-      height : 1600px;
+      height : 1500px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     #project_card {
-      padding-left: 20%;
-      padding-right: 20%;
+      padding-left: 10%;
+      padding-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #sub_heading {
+        margin-left: 10%;
+        /* background-color: lightcoral; */
     }
 }
 
@@ -566,8 +567,8 @@ footer{
 
 @media only screen and (max-width: 800px) {
     #contact_buttons {
-      margin-left: 30%;
-      margin-right: 30%;
+      margin-left: 20%;
+      margin-right: 20%;
     }
 }
 
@@ -600,5 +601,17 @@ footer{
         width:90%;
         height:250px;
         margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #copyright {
+       font-size:11px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .button_contact1,.button_contact2,.button_contact3,.button_contact4 {
+        background-color: black;
     }
 }
