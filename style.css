@@ -398,7 +398,7 @@ body{
 
 #instagram_icon{
     margin-left:-64%;
-    color:#660033;
+    color:#AB111F;
     margin-top: 5px;
 } 
 
@@ -410,7 +410,7 @@ body{
 
 #facebook_icon{
     margin-left:-60%;
-    color:blue;
+    color:#5792B4;
     margin-top: 5px;
 } 
 
@@ -520,6 +520,7 @@ footer{
     #about_image{
        margin-left: 0%;
        /* padding-right: 50%; */
+       width:280px;
     }
 }
 
@@ -638,25 +639,25 @@ footer{
 
 @media only screen and (max-width: 450px) {
     #profile {
-        height:800px;
-    }
-}
-
-@media only screen and (max-width: 370px) {
-    #about {
-        height:1300px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    #skills {
         height:850px;
     }
 }
 
 @media only screen and (max-width: 450px) {
+    #about {
+        height:1200px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #skills {
+        height:880px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
     #projects {
-        height:1600px;
+        height:1550px;
     }
 }
 
