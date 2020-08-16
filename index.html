@@ -23,7 +23,7 @@
     </head>
 
     <body>
-        <nav id = "nav" class="navbar navbar-expand-md navbar-dark">
+        <nav id = "nav" class="navbar navbar-expand-md navbar-dark fixed-top">
             <a id = "logo" class="navbar-brand" href="#"><strong>EUGIN PAUL</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -84,7 +84,8 @@
           
           <!-- About -->
           <div id = "about" class="jumbotron jumbotron-fluid">
-            <p class = "about_heading pt-3" >ABOUT ME</p>
+            <div class = "box_about"></div>
+            <p class = "about_heading pt-3" > ABOUT ME</p>
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-4 mt-5 pl-5">
@@ -94,7 +95,7 @@
                 <div id = "about_text" class="col-md-8 pl-5 mt-5">
                     <h2 class="m-heading"><strong>PYTHON DEVELOPER</strong></h2><br/>
                     <p>I'm <span class = "name_color">Eugin Paul</span>,
-                      an experienced SQA Engineer trying to explore the future of Software Engineering.</p>
+                      an experienced SQA Engineer exploring the future of Software Engineering.</p>
                     <p>Experience in HTML,CSS,Bootstrap,
                       Python,Django,
                       Database,Testing,
@@ -117,6 +118,7 @@
 
           <!-- Skills  -->
           <div id = "skills" class="jumbotron jumbotron-fluid">
+            <div class = "box_skills"></div>
             <p class = "skills_heading pt-5" >MY SKILLS</p>
             <div class="container">
               <div class="row">
@@ -183,20 +185,19 @@
 
         <!-- Projects -->
         <div id = "projects" class="jumbotron jumbotron-fluid">
+          <div class = "box_project"></div>
           <p class = "projects_heading">MY PROJECTS</p>
           <div class="container">
             <div class="row">
+
               <div id = "project_card" class="col-md-4 sm-12 pt-5">
                 <div id = "card_box" class="card">
-                  <img
-                  id = "card_image" src="images/project7.PNG"
-                    class="card"
-                    alt="..."
-                  />
+                  <a href="https://euginpaul-ecommerce.herokuapp.com/register">
+                    <img id ="card_image"  alt=".." src="images/project13.PNG"></a>
                   <div class="card-body">
-                    <a id = "sub_heading"  href ="https://euginpaul-pollapp.herokuapp.com" class="card-title">Poll App</a>
+                    <a id = "sub_heading"  href ="" class="card-title">Login Application</a>
                     <p class="card-text pt-2">
-                      An app which can be used by the user for voting,view results and creating a new poll
+                      An application which the user can register a new account and can login with that details
                     </p>
                   </div>
                 </div>
@@ -204,15 +205,12 @@
 
               <div id = "project_card" class="col-md-4 sm-12 pt-5">
                 <div id = "card_box" class="card">
-                  <img
-                  id = "card_image" src="images/project4.PNG"
-                    class="card"
-                    alt="..."
-                  />
+                  <a href="https://euginpaul-pollapp.herokuapp.com">
+                    <img id ="card_image"  alt=".." src="images/project7.PNG"></a>
                   <div class="card-body">
-                    <a id = "sub_heading"  href ="https://github.com/Eugin-Paul/ATM-Python-Program/blob/master/ATM.py" class="card-title">ATM Machine</a>
+                    <a id = "sub_heading"  href ="https://euginpaul-pollapp.herokuapp.com" class="card-title">Poll Application</a>
                     <p class="card-text pt-2">
-                      A python program which a user can check balance,deposit and withdraw amount
+                      An application which can be used by the user for voting,view results and creating a new poll
                     </p>
                   </div>
                 </div>
@@ -220,11 +218,8 @@
 
               <div id = "project_card" class="col-md-4 sm-12 pt-5">
                 <div id = "card_box" class="card">
-                  <img
-                  id = "card_image" src="images/project1.PNG"
-                    class="card"
-                    alt="..."
-                  />
+                  <a href="https://euginpaul-weather.herokuapp.com">
+                    <img id ="card_image"  alt=".." src="images/project8.PNG"></a>
                   <div class="card-body">
                     <a id = "sub_heading" href ="https://euginpaul-weather.herokuapp.com" class="card-title">Weather App</a>
                     <p class="card-text pt-2">
@@ -240,6 +235,7 @@
 
         <!-- Contact -->
         <div id = "contact" class="jumbotron jumbotron-fluid">
+          <div class = "box_contact"></div>
           <p class = "contact_heading">CONTACT ME</p>
           <div class="container-fluid">
             <div class="row">
