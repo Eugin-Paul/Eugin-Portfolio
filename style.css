@@ -3,8 +3,6 @@ html {
 }
 
 body{
-    /* background-color: black ; */
-    /* background-image: url("images/black6.jpg"); */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow-x: hidden;
     margin: 0 auto;
@@ -14,11 +12,9 @@ body{
 
 #nav{
     background-color: black;
-    /* height: 100px; */
 }
 
 #list a{
-    /* color:white; */
     padding-right: 80px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -40,13 +36,7 @@ body{
     align-items: center;
     background-image: url("images/black6.jpg");
     height : 770px;
-    /* max-width: 100%; */
-    /* background-size:contain; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* display: flex;
-    flex-direction: column;
-    height: 100%;
-    width:100%; */
 }
 
 #text_profile{
@@ -86,8 +76,6 @@ body{
 	top:27%;
 	right:0px;
     transform:translateY(50%);
-    /* margin-top: -400px;
-    margin-left: 112%; */
 }
 
 #size{
