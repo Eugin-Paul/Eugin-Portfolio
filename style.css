@@ -235,7 +235,7 @@ body{
 
 #projects{
     height : 770px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-image: url("images/project8.jpg");
     background-size:contain;
     padding-top: 80px;
@@ -273,7 +273,7 @@ body{
     color :  darkgreen;
     background-color:  lightcyan;
     text-align: center;
-    margin-left:30%;
+    margin-left:20%;
 } 
 
 .projects_heading:hover,.skills_heading:hover,.about_heading:hover,.contact_heading:hover {
@@ -508,7 +508,7 @@ footer{
     #about_image{
        margin-left: 0%;
        /* padding-right: 50%; */
-       width:280px;
+       width:300px;
     }
 }
 
