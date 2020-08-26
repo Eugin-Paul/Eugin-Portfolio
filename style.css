@@ -229,8 +229,10 @@ body{
 }
 
 #card_box{
-    width : 80%;
+    width : 85%;
     height :100%;
+    /* margin-left: 0%; */
+    /* margin-right: 20%; */
 }
 
 #projects{
@@ -273,7 +275,7 @@ body{
     color :  darkgreen;
     background-color:  lightcyan;
     text-align: center;
-    margin-left:20%;
+    margin-left:10%;
 } 
 
 .projects_heading:hover,.skills_heading:hover,.about_heading:hover,.contact_heading:hover {
@@ -633,7 +635,7 @@ footer{
 
 @media only screen and (max-width: 450px) {
     #about {
-        height:1200px;
+        height:1250px;
     }
 }
 
@@ -645,7 +647,7 @@ footer{
 
 @media only screen and (max-width: 450px) {
     #projects {
-        height:1550px;
+        height:1650px;
     }
 }
 
