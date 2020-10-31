@@ -1,1 +1,1 @@
-https://eugin-paul.github.io/Eugin-Portfolio
+https://euginpaul.xyz
